@@ -24,3 +24,7 @@ jetbrains:
       - com.intellij.lang.jsgraphql
       - org.sonarlint.idea
       - zielu.gittoolbox
+
+github:
+  prebuilds:
+    branches: true
