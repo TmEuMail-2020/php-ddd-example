@@ -11,9 +11,10 @@ final class HealthCheckGetController
 {
     public function __invoke(Request $request): JsonResponse
     {
+        echo phpinfo();
         return new JsonResponse(
             [
-                'backoffice-frontend' => 'ok',
+                'backoffice-frontend' => 'oazfazfazefazfzefk',
             ]
         );
     }
