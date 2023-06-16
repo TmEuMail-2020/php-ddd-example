@@ -23,5 +23,4 @@ jetbrains:
     plugins:
       - com.intellij.lang.jsgraphql
       - org.sonarlint.idea
-    prebuilds:
-      version: stable
+      - zielu.gittoolbox
