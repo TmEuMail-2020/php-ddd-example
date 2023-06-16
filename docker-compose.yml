@@ -79,6 +79,7 @@ services:
     ports:
       - "8041:8041"
       - "9041:9001"
+    extra_hosts : [ host.docker.internal:host-gateway]
     volumes:
       - .:/app:delegated
     depends_on:
@@ -91,6 +92,7 @@ services:
   mooc_backend_php:
     container_name: codely-php_ddd_skeleton-mooc_backend-php
     user: "${UID}:${GID}"
+    extra_hosts: [ host.docker.internal:host-gateway ]
     build:
       context: .
       dockerfile: Dockerfile
