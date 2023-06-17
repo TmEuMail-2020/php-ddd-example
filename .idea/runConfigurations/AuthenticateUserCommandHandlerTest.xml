@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="AuthenticateUserCommandHandlerTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+    <TestRunner class="CodelyTv\Tests\Backoffice\Auth\Application\Authenticate\AuthenticateUserCommandHandlerTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Backoffice/Auth/Application/Authenticate/AuthenticateUserCommandHandlerTest.php" scope="Class" />
+    <method v="2" />
+  </configuration>
+</component>
