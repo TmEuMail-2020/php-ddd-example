@@ -1,6 +1,6 @@
 tasks:
   # NOTE: below `sudo chmod o+rwx .` - this dot specific "here" directory is different from wildcard in line below!
-  - init: | 
+  - init: |
       make deps
       docker-compose build
       docker-compose pull
@@ -8,12 +8,12 @@ tasks:
       sudo chmod -R o+rw *
     command: |
       docker-compose up 
-# split right so normal terminal can be seen 
+    # split right so normal terminal can be seen
     openMode: split-right
 # direct open preview   
 ports:
-# still applied even above implicitly says ignore! 
-# NOTE: can not have more than two using onOpen: open-preview
+  # still applied even above implicitly says ignore!
+  # NOTE: can not have more than two using onOpen: open-preview
   - port: 8041
     visibility: private
     onOpen: open-preview
@@ -23,6 +23,9 @@ jetbrains:
     plugins:
       - com.intellij.lang.jsgraphql
       - org.sonarlint.idea
+      # everything git related MUST be on backend
+      - com.github.lppedd.idea-conventional-commit
+      # as of (17-Jun-2023T11-51+0200) - inline blame is not working
       - zielu.gittoolbox
 
 github:
