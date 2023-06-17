@@ -6,6 +6,7 @@
         <settings>
           <configurations>
             <local_configuration configuration_file_path="$PROJECT_DIR$/behat.yml" executable_path="$PROJECT_DIR$/vendor/behat/behat/bin/behat" use_configuration_file="true" />
+            <configuration_by_sdk interpreter_id="64260cc8-b403-4a22-a4f6-f3a48172c1f9" configuration_file_path="/app/behat.yml" executable_path="/app/vendor/behat/behat/bin/behat" use_configuration_file="true" />
           </configurations>
         </settings>
       </tool>
@@ -17,6 +18,14 @@
         <cache>
           <versions>
             <info id="Local" version="3.8.1" />
+            <info id="interpreter-64260cc8-b403-4a22-a4f6-f3a48172c1f9" version="3.8.1" />
+          </versions>
+        </cache>
+      </tool>
+      <tool tool_name="PHPUnit">
+        <cache>
+          <versions>
+            <info id="Local" version="9.5.20" />
           </versions>
         </cache>
       </tool>

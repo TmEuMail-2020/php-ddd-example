@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="health_check_get.feature::Check the api status" type="PhpBehatConfigurationType">
+    <BehatRunner file="$PROJECT_DIR$/apps/mooc/backend/tests/features/health_check/health_check_get.feature" scenario="Check the api status" scope="Scenario" options="-p mooc_backend" />
+    <CommandLine workingDirectory="$PROJECT_DIR$">
+      <PhpTestInterpreterSettings>
+        <option name="interpreterName" value="mooc_backend_php" />
+      </PhpTestInterpreterSettings>
+    </CommandLine>
+    <method v="2" />
+  </configuration>
+</component>
